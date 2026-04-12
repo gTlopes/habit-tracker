@@ -1,12 +1,6 @@
 <<<<<<< HEAD
 # Habit Tracker CLI
 =======
-```md
-![CI](https://github.com/gTlopes/habit-tracker/actions/workflows/ci.yml/badge.svg)
-
-# 🧠 Habit Tracker CLI
->>>>>>> 4003a9e (Upgrade project with persistence and improvements)
-
 ## Problema
 
 Muitas pessoas enfrentam dificuldades para manter hábitos saudáveis no dia a dia, como beber água regularmente, estudar ou praticar atividades físicas.
