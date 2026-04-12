@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # Habit Tracker CLI
-=======
+
 ## Problema
 
 Muitas pessoas enfrentam dificuldades para manter hábitos saudáveis no dia a dia, como beber água regularmente, estudar ou praticar atividades físicas.
