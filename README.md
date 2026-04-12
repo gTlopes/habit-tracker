@@ -1,50 +1,50 @@
-# 🧠 Habit Tracker CLI
+# Habit Tracker CLI
 
-## 📌 Problema
+## Problema
 
 Muitas pessoas enfrentam dificuldades para manter hábitos saudáveis no dia a dia, como beber água regularmente, estudar ou praticar atividades físicas.
 
-## 💡 Solução
+## Solução
 
 Aplicação em linha de comando (CLI) que permite registrar e acompanhar hábitos diários.
 
-## 👥 Público-alvo
+## Público-alvo
 
 Qualquer pessoa que deseja melhorar sua rotina.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
 * Adicionar hábitos
 * Marcar hábitos como concluídos
 * Listar hábitos
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 * Python
 * Pytest
 * Ruff
 
-## ▶️ Execução
+## Execução
 
 pip install -r requirements.txt
 python src/app.py
 
-## 🧪 Testes
+## Testes
 
 python -m pytest
 
-## 🔍 Lint
+## Lint
 
 ruff check .
 
-## 🔢 Versão
+## Versão
 
 1.0.0
 
-## 👤 Autor
+## Autor
 
-Gustavo Lopes
+Gustavo Soares Lopes
 
-## 🔗 Repositório
+## Repositório
 
 https://github.com/gTlopes/habit-tracker
