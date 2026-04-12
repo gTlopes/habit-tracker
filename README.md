@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 # Habit Tracker CLI
+=======
+```md
+![CI](https://github.com/gTlopes/habit-tracker/actions/workflows/ci.yml/badge.svg)
+
+# 🧠 Habit Tracker CLI
+>>>>>>> 4003a9e (Upgrade project with persistence and improvements)
 
 ## Problema
 
@@ -48,3 +55,7 @@ Gustavo Soares Lopes
 ## Repositório
 
 https://github.com/gTlopes/habit-tracker
+
+## Exemplo de uso (PRINT)
+
+https://prnt.sc/7PWgE0MxNR-J

@@ -16,3 +16,9 @@ def test_complete_habit():
     tracker.add_habit("Estudar")
     tracker.complete_habit("Estudar")
     assert tracker.habits["Estudar"] is True
+
+def test_remove_habit():
+    tracker = HabitTracker()
+    tracker.add_habit("Treinar")
+    tracker.remove_habit("Treinar")
+    assert "Treinar" not in tracker.habits

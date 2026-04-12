@@ -8,7 +8,8 @@ def menu():
         print("1 - Adicionar hábito")
         print("2 - Concluir hábito")
         print("3 - Listar hábitos")
-        print("4 - Sair")
+        print("4 - Remover hábito")
+        print("5 - Sair")
 
         choice = input("Escolha uma opção: ")
 
@@ -39,6 +40,14 @@ def menu():
                     print(f"- {habit}: {status}")
 
         elif choice == "4":
+            name = input("Qual hábito deseja remover: ")
+            try:
+                tracker.remove_habit(name)
+                print("Hábito removido!")
+            except ValueError as e:
+                print(f"Erro: {e}")
+
+        elif choice == "5":
             print("Saindo...")
             break
 
