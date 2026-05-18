@@ -1,8 +1,22 @@
 from habits import HabitTracker
+from weather import get_weather
+
 
 tracker = HabitTracker()
 
+
+def show_weather():
+    try:
+        temperature = get_weather()
+        print(f"\n🌤️ Temperatura atual: {temperature}°C")
+        print("💧 Lembre-se de se hidratar hoje!\n")
+    except Exception:
+        print("Não foi possível obter dados do clima.\n")
+
+
 def menu():
+    show_weather()
+
     while True:
         print("\n===== HABIT TRACKER =====")
         print("1 - Adicionar hábito")
@@ -15,37 +29,46 @@ def menu():
 
         if choice == "1":
             name = input("Digite o nome do hábito: ")
+
             try:
                 tracker.add_habit(name)
                 print("Hábito adicionado com sucesso!")
-            except ValueError as e:
-                print(f"Erro: {e}")
+
+            except ValueError as error:
+                print(f"Erro: {error}")
 
         elif choice == "2":
             name = input("Qual hábito deseja concluir: ")
+
             try:
                 tracker.complete_habit(name)
                 print("Hábito concluído!")
-            except ValueError as e:
-                print(f"Erro: {e}")
+
+            except ValueError as error:
+                print(f"Erro: {error}")
 
         elif choice == "3":
             habits = tracker.list_habits()
+
             if not habits:
                 print("Nenhum hábito cadastrado.")
+
             else:
                 print("\nSeus hábitos:")
+
                 for habit, done in habits.items():
                     status = "✔" if done else "✘"
                     print(f"- {habit}: {status}")
 
         elif choice == "4":
             name = input("Qual hábito deseja remover: ")
+
             try:
                 tracker.remove_habit(name)
                 print("Hábito removido!")
-            except ValueError as e:
-                print(f"Erro: {e}")
+
+            except ValueError as error:
+                print(f"Erro: {error}")
 
         elif choice == "5":
             print("Saindo...")
@@ -53,6 +76,7 @@ def menu():
 
         else:
             print("Opção inválida.")
+
 
 if __name__ == "__main__":
     menu()
