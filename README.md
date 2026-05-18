@@ -1,4 +1,17 @@
-# Habit Tracker CLI
+# Habit Tracker
+
+## Aplicação Online
+
+Acesse a aplicação:
+https://entrega-intermediaria-bootcamp.streamlit.app/
+
+---
+
+## Sobre o Projeto
+
+O Habit Tracker é uma aplicação desenvolvida para auxiliar pessoas na criação e acompanhamento de hábitos diários, incentivando organização pessoal, disciplina e bem-estar.
+
+A aplicação também integra dados climáticos em tempo real utilizando a API pública Open-Meteo, incentivando hábitos saudáveis como hidratação diária.
 
 ## Problema
 
@@ -14,9 +27,16 @@ Qualquer pessoa que deseja melhorar sua rotina.
 
 ## Funcionalidades
 
-* Adicionar hábitos
-* Marcar hábitos como concluídos
-* Listar hábitos
+- Adicionar hábitos
+- Listar hábitos
+- Concluir hábitos
+- Remover hábitos
+- Persistência de dados em JSON
+- Integração com API de clima
+- Interface CLI
+- Interface Web com Streamlit
+- Testes automatizados
+- Integração contínua com GitHub Actions
 
 ## Funcionalidade de clima
 
