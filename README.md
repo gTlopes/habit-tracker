@@ -18,6 +18,10 @@ Qualquer pessoa que deseja melhorar sua rotina.
 * Marcar hábitos como concluídos
 * Listar hábitos
 
+## Funcionalidade de clima
+
+A aplicação consome a API pública Open-Meteo para exibir a temperatura atual e incentivar hábitos saudáveis como hidratação diária.
+
 ## Tecnologias
 
 * Python
